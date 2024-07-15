@@ -8,5 +8,8 @@ int main() {
     S2P_Method S2P;
     S2P.solve(Prob);
     S2P.display();
+    std::cout << "Press Enter to end the program.";
+    std::cin.ignore();
+    std::cin.get();
     return 1;
 }
