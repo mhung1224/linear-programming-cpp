@@ -45,10 +45,10 @@ Input the problem as:
 >= >= >=
 ```
 ``` math
-\begin{array}{rrrr@{}r}
-\text{minimize} & -x_1 & - & 3x_2 & - & x_3 \\
-\text{subject to} & 2x_1 & - & 5x_2 & + & x_3 & \leq & -5 \\
-                  & 2x_1 & - & x_2 & + & 2x_3 & \leq & 4 \\
+\begin{array}{rrrrrr}
+\text{minimize} & 5x_1 & + & 4x_2 \\
+\text{subject to} & x_1 & + & x_2 & - & x_3 & & & \eq & 1 \\
+                  & x_1 & - & x_2 &  &  & + & x_4 & \eq & 5 \\
                   & x_1, & x_2, & x_3 & \geq & 0
 \end{array}
 ```
