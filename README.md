@@ -15,6 +15,23 @@ g++ main.cpp ExFuncs.cpp Problems.cpp Models.cpp -o LPSolver.exe
 ```
 Finally, just run the *LPSolver* file to run the program.
 ## :question: How to input the problem into the program ? <br>
+Suppose you have a LP problem like this:
+$$
+$Minimize/Maximize $\sum c_i x_i$
 
+\[
+\begin{aligned}
+\text{subject to} \\
+\sum a_i x_i & \leq b_i \quad \text{for all } i \in M_1, \\
+\sum a_i x_i & \geq b_i \quad \text{for all } i \in M_2, \\
+\sum a_i x_i & = b_i \quad \text{for all } i \in M_3, \\
+x_i & \geq 0 \quad \text{for all } i \in N_1, \\
+x_i & \leq 0 \quad \text{for all } i \in N_2, \\
+x_i & \text{ is free for all } i \in N_3.
+\end{aligned}
+\]
+
+and $N_1 \cup N_2 \cup N_3 = M_1 \cup M_2 \cup M_3 = \{1, \ldots, n\}$.
+$$
 # :heavy_exclamation_mark: Notes <br>
 During the calculating process, maybe sometime you can see some phase has abnormal values, but it's okay.
