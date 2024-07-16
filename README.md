@@ -27,5 +27,5 @@ You will input *n + 3* line into the program, which n is the number of *equality
 
 Some examples: <br>
 # :heavy_exclamation_mark: Notes <br>
-During the calculating process, maybe sometime you can see some phase has abnormal values, but it's okay.
+During the calculating process, maybe sometime you can see some phase has abnormal values, but it's okay. <br>
 Maybe there are some bugs I haven't found :D
