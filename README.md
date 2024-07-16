@@ -47,8 +47,8 @@ Input the problem as:
 ``` math
 \begin{array}{rrrrrr}
 \text{minimize} & 5x_1 & + & 4x_2 \\
-\text{subject to} & x_1 & + & x_2 & - & x_3 & & & \eq & 1 \\
-                  & x_1 & - & x_2 &  &  & + & x_4 & \eq & 5 \\
+\text{subject to} & x_1 & + & x_2 & - & x_3 & & & = & 1 \\
+                  & x_1 & - & x_2 &  &  & + & x_4 & = & 5 \\
                   & x_1, & x_2, & x_3 & \geq & 0
 \end{array}
 ```
