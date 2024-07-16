@@ -7,7 +7,7 @@ The solving processes will be displayed in the *dictionary form*, not the *tabul
 # :bulb: Installation <br>
 Here is a simple way to install this program. <br>
 Make sure you installed `GCC` on your computer. 
-If you did't, here is the [MinGW for Windows](https://sourceforge.net/projects/mingw/) installation file to install it. <br>
+If you did't, here is the [MinGW for Windows](https://sourceforge.net/projects/mingw/) installation file. <br>
 
 First, you need to download all files to your computer. Look at the green `Code` box. Then, click on it and choose `Download ZIP`. <br>
 After downloading, just extract it. <br>
