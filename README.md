@@ -3,7 +3,7 @@ This repository contains a simple project to solve **Linear Progamming(LP)** pro
 # :newspaper: Description <br>
 The method I choose to solve LP problems is the **Two-Phase simplex algorithm**. <br>
 Also, I use **Bland's rule** to choose the variables instead of the normal rule to **avoid cycling**. <br>
-The solving processes will be displayed in a *dictionary form*, not a *tabular form*.
+The solving processes will be displayed in the *dictionary form*, not the *tabular form*.
 # :bulb: Installation <br>
 Make sure you installed `GCC` on your computer.
 If you don't, here the [MinGW](https://sourceforge.net/projects/mingw/) installation files to install it. <br>
