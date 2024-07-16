@@ -6,7 +6,7 @@ Also, I use **Bland's rule** to choose the variables instead of the normal rule 
 The solving processes will be displayed in the *dictionary form*, not the *tabular form*.
 # :bulb: Installation <br>
 Make sure you installed `GCC` on your computer.
-If you don't, here the [MinGW](https://sourceforge.net/projects/mingw/) installation files to install it. <br>
+If you don't, here is the [MinGW](https://sourceforge.net/projects/mingw/) installation files to install it. <br>
 
 First, you need to download the source files to your computer. <br>
 Then, open your *Terminal* in the same place as source files and run this command:
