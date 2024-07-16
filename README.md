@@ -31,7 +31,7 @@ x_i & \text{ is free for all } i \in N_3.
 \end{aligned}
 \]
 
-and $N_1 \cup N_2 \cup N_3 = M_1 \cup M_2 \cup M_3 = \{1, \ldots, n\}$. <br>
+and $M_1 \cup M_2 \cup M_3 = N_1 \cup N_2 \cup N_3 = \{1, \ldots, n\}$. <br>
 $$
 # :heavy_exclamation_mark: Notes <br>
 During the calculating process, maybe sometime you can see some phase has abnormal values, but it's okay.
