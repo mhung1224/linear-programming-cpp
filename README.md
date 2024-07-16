@@ -13,7 +13,7 @@ Then, open your **Terminal** in the same place as source files and run this comm
 g++ main.cpp ExFuncs.cpp Problems.cpp Models.cpp -o LPSolver.exe
 ```
 Finally, just run the **LPSolver** file to run the program.
-## :question: How to input problems into program ? <br>
+## :question: How to input problems into the program ? <br>
 
 # :heavy_exclamation_mark: Notes <br>
 During the calculating process, maybe sometime you can see some phase has abnormal values, but it's okay.
