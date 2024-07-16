@@ -11,11 +11,11 @@ If you did't, here is the [MinGW for Windows](https://sourceforge.net/projects/m
 
 First, you need to download all files to your computer. Look at the green `Code` box. Then, click on it and choose `Download ZIP`. <br>
 After downloading, just extract it. <br>
-Then, open your *Terminal* in the same place as source files and run this command:
+Then, open your `Terminal` in the same place as source files and run this command:
 ``` shell
 g++ main.cpp ExFuncs.cpp Problems.cpp Models.cpp -o LPSolver.exe
 ```
-Finally, just run the *LPSolver* file to run the program.
+Finally, just run the `LPSolver` file to run the program.
 # :question: How to use <br>
 You will input *n + 3* line into the program, which n is the number of *equality(eq)/ inequality(ineq) constraints*.
 - The first line: Input 1 for the minimizing problem, 2 for the maximizing problem.
