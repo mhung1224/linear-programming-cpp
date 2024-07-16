@@ -28,6 +28,12 @@ You will input ***n + 3*** line into the program, which n is the number of *equa
     * The number of signs constraints must be equal to the objective function indicies and the eq/ ineq constraint variable indicies. <br>
 
 Some examples: <br>
+| Công thức toán học         | Dòng lệnh                      |
+|-----------------------------|--------------------------------|
+| Định lý Pythagoras          | `a^2 + b^2 = c^2`               |
+| Đạo hàm                    | `diff(f(x), x)`                |
+| Tích phân                  | `integrate(f(x), x)`           |
+
 # :heavy_exclamation_mark: Notes <br>
 During the calculating process, maybe sometime you can see some phase has abnormal values, but it's okay. <br>
 Maybe there are some bugs I haven't found :D
