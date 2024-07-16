@@ -27,7 +27,7 @@ You will input ***n + 3*** line into the program, which n is the number of *equa
     * Note that for any variable indicies is equal to 0, just input it as 0 instead of skipping it.
     * The number of signs constraints must be equal to the objective function indicies and the eq/ ineq constraint variable indicies. <br>
 
-Some examples: <br>
+**Some examples** <br>
 ``` math
 \begin{array}{rrrr@{}r}
 \text{maximize} & -x_1 & - & 3x_2 & - & x_3 \\
