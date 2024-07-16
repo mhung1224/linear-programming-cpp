@@ -29,7 +29,7 @@ You will input ***n + 3*** line into the program, which n is the number of *equa
 
 **Some examples** <br>
 ``` math
-\begin{array}{rrrr@{}r}
+\begin{array}{rrrrr}
 \text{maximize} & -x_1 & - & 3x_2 & - & x_3 \\
 \text{subject to} & 2x_1 & - & 5x_2 & + & x_3 & \leq & -5 \\
                   & 2x_1 & - & x_2 & + & 2x_3 & \leq & 4 \\
