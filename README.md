@@ -61,6 +61,6 @@ Input the problem as:
 >= >= >= f
 ```
 # :heavy_exclamation_mark: Notes <br>
-During the calculating process, maybe you will see some dictionaries in two phases have abnormal values.
-It happens since the chosen pivot point has its index approximately 0, but... it's okay. <br>
+During the calculating process, maybe you will see some dictionaries in two phases have abnormal values. <br>
+  It happens since the chosen pivot point has its index approximately 0, but... it's okay. <br>
 Maybe there are some bugs I haven't found :D
