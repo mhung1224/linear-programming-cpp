@@ -30,7 +30,7 @@ You will input ***n + 3*** line into the program, which n is the number of *equa
 Some examples: <br>
 | Công thức toán học         | Dòng lệnh                      |
 |-----------------------------|--------------------------------|
-| Định lý Pythagoras          | `a^2 + b^2 = c^2`               |
+| Định lý Pythagoras          | `ls -l`              |
 | Đạo hàm                    | `diff(f(x), x)`                |
 | Tích phân                  | `integrate(f(x), x)`           |
 
