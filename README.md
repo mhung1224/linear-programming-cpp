@@ -10,6 +10,7 @@ Make sure you installed `GCC` on your computer.
 If you did't, here is the [MinGW for Windows](https://sourceforge.net/projects/mingw/) installation file to install it. <br>
 
 First, you need to download all files to your computer. Look at the green `Code` box. Then, click on it and choose `Download ZIP`. <br>
+After downloading, just extract it. <br>
 Then, open your *Terminal* in the same place as source files and run this command:
 ``` shell
 g++ main.cpp ExFuncs.cpp Problems.cpp Models.cpp -o LPSolver.exe
