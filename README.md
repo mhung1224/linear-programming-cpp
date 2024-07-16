@@ -6,8 +6,8 @@ Also, I use **Bland's rule** to choose the variables instead of the normal rule 
 The solving processes will be displayed in the *dictionary form*, not the *tabular form*.
 # :bulb: Installation <br>
 Here is a simple way to install this program. <br>
-Make sure you installed `GCC` on your computer. <br>
-If you don't, here is the [MinGW for Windows](https://sourceforge.net/projects/mingw/) installation file to install it. <br>
+Make sure you installed `GCC` on your computer. 
+If you did't, here is the [MinGW for Windows](https://sourceforge.net/projects/mingw/) installation file to install it. <br>
 
 First, you need to download all files to your computer. <br>
 Then, open your *Terminal* in the same place as source files and run this command:
