@@ -28,13 +28,14 @@ You will input ***n + 3*** line into the program, which n is the number of *equa
     * The number of signs constraints must be equal to the objective function indicies and the eq/ ineq constraint variable indicies. <br>
 
 Some examples: <br>
-\begin{aligned}
-\text{maximize} \quad & -x_1 - 3x_2 - x_3 \\
-\text{subject to} \quad & 2x_1 - 5x_2 + x_3 \leq -5 \\
+$$
+\begin{aligned} <br>
+\text{maximize} \quad & -x_1 - 3x_2 - x_3 \\ <br>
+\text{subject to} \quad & 2x_1 - 5x_2 + x_3 \leq -5 \\ 
 & 2x_1 - x_2 + 2x_3 \leq 4 \\
 & x_1 \geq 0, \quad x_2 \geq 0, \quad x_3 \geq 0
 \end{aligned}
-
+$$
 
 # :heavy_exclamation_mark: Notes <br>
 During the calculating process, maybe sometime you can see some phase has abnormal values, but it's okay. <br>
