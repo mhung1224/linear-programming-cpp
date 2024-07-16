@@ -36,9 +36,13 @@ Some examples: <br>
                   & x_1, & x_2, & x_3 & \geq & 0
 \end{array}
 ```
-Input as 
-``` bash
-jkl
+Input the problem as:
+``` shell
+2
+-1 -3 -1 *
+2 -5 1 <= -5
+2 -1 2 <= 4 *
+>= >= >=
 ```
 ``` math
 \begin{array}{rrrr@{}r}
@@ -48,8 +52,8 @@ jkl
                   & x_1, & x_2, & x_3 & \geq & 0
 \end{array}
 ```
-Input as 
-``` bash
+Input the problem as:
+``` shell
 1
 5 4 0 0 *
 1 1 -1 0 = 1
