@@ -1,4 +1,4 @@
-# Introduction
+# Introduction <br>
 This repository contains a simple project to solve Linear Progamming(LP) problems, which is implemented just using `C++`. <br>
 # Description <br>
 The method I use to solve LP problems is the Two-Phase simplex method. <br>
