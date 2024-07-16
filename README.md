@@ -1,3 +1,4 @@
-Hmm, anything to say ?
-``` shell =
-g++ main.cpp ExFuncs.cpp Problems.cpp Models.cpp -o LPSolver.exe
+Then, open CommandPrompt in the same place as source files and run this command:
+```
+shell = g++ main.cpp ExFuncs.cpp Problems.cpp Models.cpp -o LPSolver.exe
+```
