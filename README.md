@@ -33,10 +33,29 @@ Some examples: <br>
 \text{maximize} & -x_1 & - & 3x_2 & - & x_3 \\
 \text{subject to} & 2x_1 & - & 5x_2 & + & x_3 & \leq & -5 \\
                   & 2x_1 & - & x_2 & + & 2x_3 & \leq & 4 \\
-                  & x_1 &, x_2 &, x_3 & \geq & 0
+                  & x_1, & x_2, & x_3 & \geq & 0
 \end{array}
 ```
-
+Input as 
+``` bash
+jkl
+```
+``` math
+\begin{array}{rrrr@{}r}
+\text{minimize} & -x_1 & - & 3x_2 & - & x_3 \\
+\text{subject to} & 2x_1 & - & 5x_2 & + & x_3 & \leq & -5 \\
+                  & 2x_1 & - & x_2 & + & 2x_3 & \leq & 4 \\
+                  & x_1, & x_2, & x_3 & \geq & 0
+\end{array}
+```
+Input as 
+``` bash
+1
+5 4 0 0 *
+1 1 -1 0 = 1
+1 -1 0 -1 = 5 *
+>= >= >= f
+```
 # :heavy_exclamation_mark: Notes <br>
 During the calculating process, maybe sometime you can see some phase has abnormal values, but it's okay. <br>
 Maybe there are some bugs I haven't found :D
