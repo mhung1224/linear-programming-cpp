@@ -15,7 +15,7 @@ g++ main.cpp ExFuncs.cpp Problems.cpp Models.cpp -o LPSolver.exe
 ```
 Finally, just run the *LPSolver* file to run the program.
 ## :question: How to input the problem into the program ? <br>
-Suppose you have a LP problem like this:
+Suppose you have a LP problem like this: <br>
 $$
 $Minimize/Maximize $\sum c_i x_i$
 
