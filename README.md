@@ -29,11 +29,11 @@ You will input ***n + 3*** line into the program, which n is the number of *equa
 
 Some examples: <br>
 ``` math
-\begin{aligned} <br>
-\text{maximize} \quad & -x_1 - 3x_2 - x_3 \\ <br>
-\text{subject to} \quad & 2x_1 - 5x_2 + x_3 \leq -5 \\ 
-& 2x_1 - x_2 + 2x_3 \leq 4 \\
-& x_1, x_2 , x_3 \geq 0
+\begin{aligned}
+\text{maximize} \quad & -x_1 - 3x_2 - x_3 \\
+\text{subject to} \quad & 2x_1 - 5x_2 + x_3 & \leq & -5 \\
+& 2x_1 - x_2 + 2x_3 & \leq & 4 \\
+& x_1, & x_2, & x_3 \geq 0
 \end{aligned}
 ```
 
