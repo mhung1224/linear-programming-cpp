@@ -1,5 +1,5 @@
 # :package: Introduction <br>
-This repository contains a simple project to solve Linear Progamming(LP) problems, which is implemented just using `C++`. <br>
+This repository contains a simple project to solve **Linear Progamming(LP)** problems, which is implemented just using `C++`. <br>
 # :newspaper: Description <br>
 The method I choose to solve LP problems is the **Two-Phase simplex algorithm**. <br>
 Also, I use **Bland's rule** to choose the variables instead of the normal rule to **avoid cycling**. <br>
