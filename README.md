@@ -1,4 +1,4 @@
-# Introduction <br>
+# :package: Introduction <br>
 This repository contains a simple project to solve Linear Progamming(LP) problems, which is implemented just using `C++`. <br>
 # Description <br>
 The method I choose to solve LP problems is the Two-Phase simplex algorithm. <br>
@@ -10,5 +10,5 @@ Then, open CommandPrompt in the same place as source files and run this command:
 g++ main.cpp ExFuncs.cpp Problems.cpp Models.cpp -o LPSolver.exe
 ```
 Finally, just run the LPSolver file to run the program.
-# Notes <br>
+# :double_exclamation_mark: Notes <br>
 During the calculating process, maybe sometime you can see some phase has abnormal values, but it's okay.
