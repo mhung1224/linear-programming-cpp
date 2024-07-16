@@ -31,9 +31,9 @@ Some examples: <br>
 ``` math
 \begin{array}{rl@{}rl}
 \text{maximize} & -x_1 - 3x_2 - x_3 \\
-\text{subject to} & 2x_1 - 5x_2 + x_3 & \leq & -5 \\
-                  & 2x_1 - x_2 + 2x_3 & \leq & 4 \\
-                  & x_1, x_2, x_3 \geq 0
+\text{subject to} & 2x_1 - 5x_2 + x_3 \leq & -5 \\
+                  & 2x_1 - x_2 + 2x_3 \leq &  4 \\
+                  & x_1,  x_2,  x_3 \geq 0
 \end{array}
 ```
 
