@@ -14,7 +14,7 @@ Then, open your *Terminal* in the same place as source files and run this comman
 g++ main.cpp ExFuncs.cpp Problems.cpp Models.cpp -o LPSolver.exe
 ```
 Finally, just run the *LPSolver* file to run the program.
-## :question: How to input the problem into the program ? <br>
+# :question: How to input the problem into the program ? <br>
 You will input *n + 3* line into the program, which n is the number of *equality(eq)/ inequality(ineq) constraints*, with the format like this:
 - The first line: Input 1 for the minimizing problem, 2 for the maximizing problem.
 - The next line: Input objective function indicies, end with *.
