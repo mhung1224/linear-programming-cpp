@@ -5,7 +5,7 @@ The method I choose to solve LP problems is the **Two-Phase simplex algorithm**.
 Also, I use **Bland's rule** to choose the variables instead of the normal rule to **avoid cycling**. <br>
 # :bulb: Installation <br>
 Make sure you installed `GCC` on your computer.
-If you don't, here the [MinGW](https://sourceforge.net/projects/mingw/) installation files to install it.
+If you don't, here the [MinGW](https://sourceforge.net/projects/mingw/) installation files to install it. <br>
 First, you need to download the source files to your computer. <br>
 Then, open CommandPrompt in the same place as source files and run this command:
 ``` shell =
