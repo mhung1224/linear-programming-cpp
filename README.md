@@ -4,14 +4,13 @@ The chosen method to solve LP problems is the **Two-Phase simplex algorithm**, c
 The solving process will be displayed in *dictionary form*, not in *tabular form*.
 
 # 2. How to use <br>
-You will input **n + 3** line into the program, where **n** is the number of the equality(eq) and inequality(ineq) constraints.
-- The first line: Enter 1 for a minimization problem, or 2 for a maximization problem.
-- The next line: Enter the indices of the objective function indices, ending with a "*".
-- The next n lines: Input eq/ ineq constraints by inputting variable indicies, signs and the free coefficients.
-  + The last constraints will end with *.
-- The last line: Input variable sign constraints.
-  + If you want to input free variables, input it as `f`
-    * Note that for any variable indicies is equal to 0, input it as 0 instead of skipping it.
+You must provide **n + 3** lines of input to the program, where **n** is the number of equality (eq) and inequality (ineq) constraints.
+- Line 1 - Problem Type: Enter 1 for a minimization problem, or 2 for a maximization problem.
+- Line 2 - Objective function: Enter the indices of the objective function indices, ending with a "*".
+- Line 3 to n + 2 - Constraints: Each line represents an equality or inequality constraint. Input eq/ ineq constraints by inputting variable indicies, signs and the free coefficients. End the last constraint line with a "*".
+- Line n + 3 - Variable sign constraints: Input the sign constraints for each variable:
+  + For free variables, enter `f`
+    * Note that for any variable indicies is equal to 0, enter 0 - do not skip it.
     * The number of sign constraints must be equal to the objective function indicies and the eq/ ineq constraint variable indicies. <br>
 
 **Some examples** <br>
