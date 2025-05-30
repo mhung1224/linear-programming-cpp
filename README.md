@@ -1,17 +1,18 @@
 # 1. Description <br>
-This repository contains a simple project to solve **Linear Progamming(LP)** problems, which is implemented using `C++`. <br>
-The chosen method to solve LP problems is the **Two-Phase simplex algorithm**, combined with **Bland's rule** to choose the variables instead of the normal rule to **avoid cycling**. <br>
-The solving processes will be displayed in the *dictionary form*, not the *tabular form*.
+This repository contains a simple program implemented using `C++` to solve **Linear Progamming(LP)** problems. <br>
+The chosen method to solve LP problems is the **Two-Phase simplex algorithm**, combined with **Bland's rule** for variable selections to **avoid cycling**. <br>
+The solving process will be displayed in *dictionary form*, not in *tabular form*.
+
 # 2. How to use <br>
-You will input **n + 3** line into the program, which n is the number of *equality(eq)/ inequality(ineq) constraints*.
-- The first line: Input 1 for the minimizing problem, 2 for the maximizing problem.
-- The next line: Input objective function indicies, end with *.
+You will input **n + 3** line into the program, where **n** is the number of the equality(eq) and inequality(ineq) constraints.
+- The first line: Enter 1 for a minimization problem, or 2 for a maximization problem.
+- The next line: Enter the indices of the objective function indices, ending with a "*".
 - The next n lines: Input eq/ ineq constraints by inputting variable indicies, signs and the free coefficients.
   + The last constraints will end with *.
 - The last line: Input variable sign constraints.
   + If you want to input free variables, input it as `f`
-    * Note that for any variable indicies is equal to 0, just input it as 0 instead of skipping it.
-    * The number of signs constraints must be equal to the objective function indicies and the eq/ ineq constraint variable indicies. <br>
+    * Note that for any variable indicies is equal to 0, input it as 0 instead of skipping it.
+    * The number of sign constraints must be equal to the objective function indicies and the eq/ ineq constraint variable indicies. <br>
 
 **Some examples** <br>
 ``` math
@@ -46,6 +47,7 @@ Input the problem as:
 1 -1 0 -1 = 5 *
 >= >= >= f
 ```
+
 # 3. Notes <br>
 During the calculating process, maybe some dictionaries in two phases will have abnormal values since the chosen pivot point 
 has its value approximately 0, but it's fine. <br>
