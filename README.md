@@ -1,20 +1,9 @@
-# :package: Introduction <br>
+# 1. Description <br>
 This repository contains a simple project to solve **Linear Progamming(LP)** problems, which is implemented using `C++`. <br>
-# :newspaper: Description <br>
-The method I choose to solve LP problems is the **Two-Phase simplex algorithm**. <br>
-Also, I use **Bland's rule** to choose the variables instead of the normal rule to **avoid cycling**. <br>
+The chosen method to solve LP problems is the **Two-Phase simplex algorithm**, combined with **Bland's rule** to choose the variables instead of the normal rule to **avoid cycling**. <br>
 The solving processes will be displayed in the *dictionary form*, not the *tabular form*.
-# :bulb: Installation <br>
-Here is a simple way to install this program. <br>
-First, you need to download all files to your computer. Look at the green `Code` box. Then, click on it and choose `Download ZIP`. <br>
-After downloading, just extract it. <br>
-Then, open your `Terminal` in the same place as source files and run this command:
-``` shell
-g++ main.cpp ExFuncs.cpp Problems.cpp Models.cpp -o LPSolver.exe
-```
-Finally, just run the `LPSolver` file to run the program.
-# :question: How to use <br>
-You will input ***n + 3*** line into the program, which n is the number of *equality(eq)/ inequality(ineq) constraints*.
+# 2. How to use <br>
+You will input **n + 3** line into the program, which n is the number of *equality(eq)/ inequality(ineq) constraints*.
 - The first line: Input 1 for the minimizing problem, 2 for the maximizing problem.
 - The next line: Input objective function indicies, end with *.
 - The next n lines: Input eq/ ineq constraints by inputting variable indicies, signs and the free coefficients.
@@ -57,7 +46,6 @@ Input the problem as:
 1 -1 0 -1 = 5 *
 >= >= >= f
 ```
-# :heavy_exclamation_mark: Notes <br>
-During the calculating process, maybe you will see some dictionaries in two phases have abnormal values. <br>
-It happens since the chosen pivot point has its index approximately 0, but... it's okay. <br>
-Maybe there are some bugs I haven't found :D
+# 3. Notes <br>
+During the calculating process, maybe some dictionaries in two phases will have abnormal values since the chosen pivot point 
+has its value approximately 0, but it's fine. <br>
