@@ -1,12 +1,12 @@
 # 1. Description <br>
 This repository contains a simple program implemented in `C++` for solving **Linear Progamming(LP)** problems. <br>
-The program uses the **Two-Phase Simplex algorithm** to find optimal solutions.
+The program uses the **Two-Phase Simplex algorithm** to find optimal solutions. <br>
 To prevent cycling during pivot operations, it incorporates **Bland's Rule** for variable selection. <br>
 The solving process is presented in dictionary form, rather than the tabular form, for better clarity and traceability. <br>
 
 # 2. How to use <br>
 You must provide **n + 3** lines of input to the program, where **n** is the number of equality (eq) and inequality (ineq) constraints.
-- Line 1 - Problem Type: Enter 1 for a minimization problem, or 2 for a maximization problem.
+- Line 1 - Problem Type: Enter '1' for a minimization problem, or '2' for a maximization problem.
 - Line 2 - Objective function: Enter the indices of the objective function indices, ending with a "*".
 - Line 3 to n + 2 - Constraints: Each line represents an equality or inequality constraint. Input eq/ ineq constraints by inputting variable indicies, signs and the free coefficients. End the last constraint line with a "*".
 - Line n + 3 - Variable sign constraints: Input the sign constraints for each variable:
