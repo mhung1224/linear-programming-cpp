@@ -6,9 +6,9 @@ The solving process is presented in dictionary form, rather than the tabular for
 
 # 2. How to use <br>
 You must provide **n + 3** lines of input to the program, where **n** is the number of equality (eq) and inequality (ineq) constraints.
-- Line 1 - Problem Type: Enter '1' for a minimization problem, or '2' for a maximization problem.
-- Line 2 - Objective function: Enter the indices of the objective function indices, ending with a "*".
-- Line 3 to n + 2 - Constraints: Each line represents an equality or inequality constraint. Input eq/ ineq constraints by inputting variable indicies, signs and the free coefficients. End the last constraint line with a "*".
+- Line 1 - Problem Type: Enter `1` for a minimization problem, or `2` for a maximization problem.
+- Line 2 - Objective function: Enter the indices of the objective function indices, ending with a `*`.
+- Line 3 to n + 2 - Constraints: Each line represents an equality or inequality constraint. Input eq/ ineq constraints by inputting variable indicies, signs and the free coefficients. End the last constraint line with a `*`.
 - Line n + 3 - Variable sign constraints: Input the sign constraints for each variable:
   + For free variables, enter `f`
     * Note that for any variable indicies is equal to 0, enter 0 - do not skip it.
@@ -49,5 +49,6 @@ Input the problem as:
 ```
 
 # 3. Notes <br>
-During the calculating process, maybe some dictionaries in two phases will have abnormal values since the chosen pivot point 
-has its value approximately 0, but it's fine. <br>
+During the computation process, some dictionaries in either phase may contain abnormal or unstable values.
+This can occur when the selected pivot element is approximately zero, leading to rounding or numerical inaccuracies.
+Note: These anomalies are expected and do not affect the correctness of the final result.
