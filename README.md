@@ -49,6 +49,6 @@ Input the problem as:
 ```
 
 # 3. Notes <br>
-During the computation process, some dictionaries in either phase may contain abnormal or unstable values.
-This can occur when the selected pivot element is approximately zero, leading to rounding or numerical inaccuracies.
-Note: These anomalies are expected and do not affect the correctness of the final result.
+During the computation process, some dictionaries in either phase may contain abnormal or unstable values. <br>
+This can occur when the selected pivot element is approximately zero, leading to rounding or numerical inaccuracies. <br>
+These anomalies are expected and do not affect the correctness of the final result. <br>
