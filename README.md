@@ -1,7 +1,8 @@
 # 1. Description <br>
-This repository contains a simple program implemented using `C++` to solve **Linear Progamming(LP)** problems. <br>
-The chosen method to solve LP problems is the **Two-Phase simplex algorithm**, combined with **Bland's rule** for variable selections to **avoid cycling**. <br>
-The solving process will be displayed in *dictionary form*, not in *tabular form*.
+This repository contains a simple program implemented in `C++` for solving **Linear Progamming(LP)** problems. <br>
+The program uses the **Two-Phase Simplex algorithm** to find optimal solutions.
+To prevent cycling during pivot operations, it incorporates **Bland's Rule** for variable selection. <br>
+The solving process is presented in dictionary form, rather than the tabular form, for better clarity and traceability. <br>
 
 # 2. How to use <br>
 You must provide **n + 3** lines of input to the program, where **n** is the number of equality (eq) and inequality (ineq) constraints.
