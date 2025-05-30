@@ -23,7 +23,7 @@ You must provide **n + 3** lines of input to the program, where **n** is the num
                   & x_1, & x_2, & x_3 & \geq & 0
 \end{array}
 ```
-Input the problem as:
+Input the problem using the following format:
 ``` shell
 2
 -1 -3 -1 *
@@ -39,7 +39,7 @@ Input the problem as:
                   & x_1, & x_2, & x_3 & \geq & 0
 \end{array}
 ```
-Input the problem as:
+Input the problem using the following format:
 ``` shell
 1
 5 4 0 0 *
